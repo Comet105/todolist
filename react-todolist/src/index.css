@@ -1,0 +1,62 @@
+.List {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.CheckBox{
+  float: right;
+}
+
+button {
+  border-style: none;
+  cursor: pointer;
+  width: 50px;
+}
+
+button:hover{
+  width: 60px;
+}
+
+.addtodo{
+  margin-bottom: 10px;
+}
+
+
+body{
+  background-color: #8B00FF;
+}
+
+.Remove-Button{
+  float: right;
+}
+
+.List .List-title{
+  flex-grow: 1;
+  color:white;
+}
+
+.List .List-year{
+  font-size: 0.5rem;
+}
+
+.form{
+  width: 18.3%;
+}
+.form1{
+  width: 18%;
+}
+
+
+@media (max-width: 700px) {
+  .form{
+    width: 65%;
+  }
+
+  .form1{
+    width: 64%;
+  }
+}
